@@ -1,0 +1,13 @@
+.input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 10px 10px;
+	border-bottom: 2px solid black;
+	height: 5vh;
+}
+.generate-btn {
+	display: block;
+	font-size: medium;
+}
