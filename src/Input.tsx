@@ -24,6 +24,7 @@ function Input({ setInputNumber }: Props) {
 				type="text"
 				aria-label="value-input"
 				value={inputValue}
+				placeholder="Enter a number"
 				onChange={(e) => parseAndSetValue(e.target.value)}
 			/>
 			<button
